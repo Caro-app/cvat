@@ -15,6 +15,8 @@ for key in RQ_QUEUES:
 
 CACHEOPS_REDIS['host'] = 'cvat_redis'
 
+CORS_ORIGIN_ALLOW_ALL=True
+
 # Django-sendfile:
 # https://github.com/johnsensible/django-sendfile
 SENDFILE_BACKEND = 'sendfile.backends.xsendfile'
